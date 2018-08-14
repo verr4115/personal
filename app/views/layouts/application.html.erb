@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Verassite</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+<head> 
+      <div class="topnav">
+        <b class="topnav b;" font-size="81px;" style=" font-family: Impact, Charcoal, sans-serif;"><%= link_to "Home", root_path %></b>
+              <a class="topnav a"><%= link_to 'About me', about_path %></a>
+      </div>
+</head>
+
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

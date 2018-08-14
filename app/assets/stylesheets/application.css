@@ -1,0 +1,83 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  margin: 0;
+  background-color: Black;
+}
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: Black;
+}
+.topnav a {
+  float: right;
+  color: White;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: Green;
+  color: Black;
+  font-size: 32px;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav b {
+  float: left;
+  color: White;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 81px;
+}
+
+.topnav b:hover {
+  background-color: black;
+  color: Black;
+  font-size: 85px;
+}
+
+.topnav b.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#left {
+  float: left;
+   width: 440px;
+   height: 540px;
+  overflow: hidden;
+}
+
+#left img {
+   width: 100%;
+}
+
+#right {
+  overflow: hidden;
+}
+
